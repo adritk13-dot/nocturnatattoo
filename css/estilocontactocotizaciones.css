@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+.formularioapartado {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.formulario {
+  background: linear-gradient(to bottom, #4f4f4f, #b389bd);
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tituloform {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.formulario label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+
+.boton {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #b389bd;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+/
+.boton:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.08);
+}
+
+
+.boton:active {
+  transform: scale(0.95);
+}

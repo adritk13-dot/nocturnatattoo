@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+.textogeneral {
+    color: #E8E5DE;
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+
+  font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+	
+.tarjeta {
+	height:666px;
+	width: 380px;
+	position:relative;
+	overflow:hidden;
+  text-align: center;
+}
+.tarjeta img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	cursor:pointer;
+  border-radius: 15px;
+}
+.tarjeta .informacion {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	left:0;
+	color-background:#b389bd;
+	background: rgba(275,255,255, 0.7);
+	transform:translateY(100%);
+	transition: transform 0.9s ease;
+	padding:30px;
+	text-align:center;
+	box-sizing:border-box;
+	
+}
+.tarjeta:hover .informacion {
+	transform:translateY(0);
+	cursor:pointer;
+}
+
+.nombre {
+	
+	}
+
+.combo-regular {
+  font-family: "Combo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tarjeta2 {
+    height: 666px;
+    width: 380px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+  text-align: center;
+}
+.tarjeta2 img {
+	display: block;
+	height: 100%;
+	width: 100%;
+	cursor:pointer;
+  border-radius: 15px;
+}
+.tarjeta2 .informacion {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	bottom:0;
+	left:0;
+	color-background:#b389bd;
+	background: rgba(275,255,255, 0.7);
+	transform:translateY(100%);
+	transition: transform 0.9s ease;
+	padding:30px;
+	text-align:center;
+	box-sizing:border-box;
+	
+}
+.tarjeta2:hover .informacion {
+	transform:translateY(0);
+	cursor:pointer;
+}
+
+
+	 
+#contenedortarjetas {
+    width: 100%;
+    height: 700px;
+	 display: flex;
+  justify-content: center; /* centra todo */
+  gap: 40px; /* espacio entre tarjetas */
+  margin: 60px 0;
+}
+
+.titular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: x-large;
+    color: #B389BD;
+    text-align: center;
+}
+#contenedortitular {
+    width: 60%;
+    height: px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.galeria-header {
+    margin: 80px 0 40px;
+    color: white;
+    text-align: center;
+}
+
+.galeria-header h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.galeria-header p {
+    color: #b389bd;
+    text-align: center;
+}
+
+.galeria {
+  column-count: 3; 
+  column-gap: 15px;
+  width: 90%;
+  margin: auto;
+}
+
+.galeria img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: block;
+  break-inside: avoid;
+  transition: 0.3s;
+}
+
+
+.galeria img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.1);
+}
+
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+	text-align: center;
+  font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+}
+
+#contenedorig {
+    width: 100%;
+	display: flex;
+   justify-content: center;
+}

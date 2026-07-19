@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+	text-align: center;
+  font-weight: <weight>;
+    font-style: normal;
+    text-align: center;
+	color: #b389bd;
+}
+body{
+	
+padding:0;  background: linear-gradient(to bottom,#070505,#070505,#b389bd);
+  min-height: 100vh;
+  margin: 0;
+}
+
+.seguridadapartado {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #111;
+  color: white;
+}
+
+.titulo {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #1c1c1c;
+  border-radius: 15px;
+  width: 250px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: scale(.05 .05);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.tarjeta h3 {
+  margin-bottom: 10px;
+  color: #b389bd;
+}
+
+.tarjeta p {
+  font-size: 14px;
+}
+
